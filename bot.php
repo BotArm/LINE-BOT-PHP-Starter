@@ -21,8 +21,6 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดี"){
 	  $arrPostData['messages'][0]['text'] = "ใครว่ะ";
   }else if($textRand == 2){
 	  $arrPostData['messages'][0]['text'] = "ง่วง";
-  }else if($textRand == 3){
-	  $arrPostData['messages'][0]['text'] = "อย่าเยอะๆ";
   }else{
 	  $arrPostData['messages'][0]['text'] = "เฮ้อ";
   }
